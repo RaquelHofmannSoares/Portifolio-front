@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: #292828;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.logo{
+    margin: 10px 20px 10px 50px;
+    display:flex;
+    align-items: center;
+    color: white;
+
+}
+
+.section{
+    display:flex;
+    align-items: center;
+}
+
+.section > a{
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sobre{
+ margin: 300px;
+ align-items: center;
+ justify-content: center;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+button{
+    background-color: #30f572;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #a2f8bf;
+}
+
+.form{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.text{
+    text-align: center;
+}
+
+.endereco{
+    margin-left: 50px;
+}
+
+.redes{
+    height: 50px;
+    width: 50px;
+    padding: 30px;
+}
+
+.footer{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetos{
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+h1 > a{
+    color: #30f572;
+}
+.formacoes{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.experiencia{
+    text-align: center;
+    margin: 150px;
+}
